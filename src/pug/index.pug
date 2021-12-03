@@ -7,8 +7,11 @@ html(lang="en")
         meta(name="author", content="")
         link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap")
         link(rel="stylesheet", href="css/tailwind/tailwind.min.css")
+        link(rel="stylesheet", href="css/slider.css")
+        link(rel="stylesheet", href="https://unpkg.com/swiper/swiper-bundle.min.css")
         link(rel="icon", type="image/png", sizes="16x16", href="favicon-tailwind.png")
         script(src="js/main.js")
+        script(src="https://unpkg.com/swiper/swiper-bundle.min.js")
     body(class="antialiased bg-body text-body font-body")
         div(class="")
             section(class="py-8 px-4 lg:px-10 bg-white")
@@ -63,7 +66,7 @@ html(lang="en")
                 div(class="relative z-10 w-1/2 md:w-full px-4 mx-auto")
                     div(class="max-w-4xl pt-20")
                         p(class="max-w-sm text-lg text-white") Fast and easy visual posts creator for social networks that works like a charm.
-                        h2(class="mt-8 mb-8 text-5xl lg:text-7xl text-white font-bold") Magical tool for your ecommerce 
+                        h2(class="mt-8 mb-8 text-5xl lg:text-7xl text-white font-bold") Magical tool for your ecommerce
                         div(class="flex flex-wrap lg:flex-nowrap max-w-md")
                             input(class="mb-2 lg:mb-0 w-full lg:w-2/3 py-4 pl-4 text-sm border", type="text", placeholder="Type your e-mail")
                             button(class="w-full lg:w-auto py-5 px-8 text-sm font-bold uppercase bg-yellow-500 hover:bg-yellow-400") ABRAKA-DABRA
@@ -89,6 +92,49 @@ html(lang="en")
                                 a(class="block py-4 text-center text-blue-800 leading-normal uppercase border-2 border-blue-800 hover:bg-blue-50 font-semibold", href="#") Sign Up
                             p(class="mt-6 mb-4 text-sm text-center text-blue-400")
                                 span © 2021 All rights reserved © Wireframes Corporation 2021
+            section(class="py-6 px-4 lg:px-10")
+                div(class="max-w-2xl mx-auto text-center")
+                    h2(class="mt-5 mb-5 max-w-xl mx-auto text-left text-sm  font-heading") ❤️ Recent post created with postmagic.app
+                    div(class="swiper mySwiper")
+                        div(class="swiper-wrapper")
+                            div(class="swiper-slide")
+                                div(class="element") Post 1
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 2
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 3
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 4
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 5
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 6
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 7
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 8
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 9
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 10
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 11
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+                            div(class="swiper-slide")
+                                div(class="element") Post 12
+                                div(class="timer text-left text-xs py-2 text-gray-400") 🕐 15 minutes ago
+
+                        div(class="swiper-pagination swiper-pagination-hidden")
             section(class="py-6 px-4 lg:px-10")
                 div(class="w-1/2 md:w-full px-4 mx-auto")
                     div(class="max-w-2xl mx-auto mb-10 text-center")
